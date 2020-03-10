@@ -1,7 +1,7 @@
 :root {
  --Title: "Mystify";
  --BgImg: url("https://cdn.discordapp.com/attachments/668622320583049262/682814251282333785/vaporwaveGridRainbow.png");;  /* BACKGROUND */
- --TextColor: rgba(158,158,158,1);
+ --TextColor: rgba(255,255,255,1);
  --MainColor: rgba(0,38,255,1);
  --MainGray: rgba(0,0,0,0.5);
  --MainMuted: rgb(128, 128, 128);
@@ -24,7 +24,7 @@
     opacity: 0.50;
 }
 
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wanderingCubesItem-WPXqao, .blockquoteDivider-2hH8H6, .mentioned-xhSam7:before{
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wanderingCubesItem-WPXqao, .blockquoteDivider-2hH8H6{
     background-color: var(--MainColor);
 }
 
@@ -43,11 +43,6 @@
 /* Email Blur */
 .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {transition: 0.2s ease-in;filter: blur(5px)}
 .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {transition: 0.2s ease-out;filter: none;}
-
-
-.clickable-3rdHwn:hover .icon-22AiRD{
-    color: var(--MainColor);
-}
 
 
 /* MAIN */
