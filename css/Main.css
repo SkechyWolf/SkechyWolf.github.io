@@ -1,5 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .HeaderName{
     text-align: center;
-    background: cornflowerblue;
-    clip-path: polygon(0 0, 70% 0%, 60% 100%, 0% 100%);
+    background: #2196F3;
+    animation: clipPath 5s;
+    clip-path: polygon(25% 0%, 80% 0%, 75% 100%, 20% 100%);
+}
+
+@keyframes clipPath {
+    0%{clip-path:polygon(50% 0%, 50% 0%, 45% 100%, 45% 100%);}
+    100%{clip-path:polygon(25% 0%, 80% 0%, 75% 100%, 20% 100%)}
 }
