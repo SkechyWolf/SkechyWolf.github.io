@@ -1,0 +1,239 @@
+:root {
+ --Title: "Mystify";
+ --BgImg: url("https://cdn.discordapp.com/attachments/668622320583049262/682814251282333785/vaporwaveGridRainbow.png");;  /* BACKGROUND */
+ --TextColor: rgba(255,255,255,1);
+ --MainColor: rgba(0,38,255,1);
+ --MainGray: rgba(0,0,0,0.5);
+ --MainMuted: rgb(128, 128, 128);
+}
+
+/* Default Backgrounds */
+/*
+   1: https://cdn.discordapp.com/attachments/668622320583049262/682814251282333785/vaporwaveGridRainbow.png
+*/
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+
+.unreadMentionsBar-1VrBNe, .mention-1f5kbO:active{
+    background-color: var(--MainColor);
+    opacity: 0.50;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wanderingCubesItem-WPXqao, .blockquoteDivider-2hH8H6{
+    background-color: var(--MainColor);
+}
+
+
+/* Sending/Failed messages */
+#app-mount .isFailed-19WM0A:after {
+    content: " [Failed To Send Message]";
+    color: #f04747;
+}
+.isSending-1nPcL7:after {
+    content: " [Sending Message]";
+    color: var(--MainMuted);
+}
+
+
+/* Email Blur */
+.userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {transition: 0.2s ease-in;filter: blur(5px)}
+.userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {transition: 0.2s ease-out;filter: none;}
+
+
+/* MAIN */
+  .theme-dark, .theme-light {
+    --text-normal: var(--TextColor);
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: transparent;
+    --background-floating: transparent;
+    --text-muted: var(--MainMuted);
+    --header-secondary: white;
+    --channels-default: white;
+    --interactive-hover: white;
+    --interactive-active: white;
+    --header-primary: white;
+    --HSL-size: 35px;
+    --HSL-spacing: 10px;
+    --HSL-roundness: .5em;
+    --HSL-roundnessHover: 20%;
+}
+
+/* Rounded Edges */
+.container-3baos1, .members-1998pB{
+    background-color: var(--MainGray)!important;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container-1r6BKw.themed-ANHk51{
+    border-radius: 0px 10px 0px 0px;
+}
+
+
+/* Background Changer */
+.app-2rEoOp,.panels-j1Uci_,.privateChannels-1nO12o {
+	background-color: transparent!important
+}
+
+  .app-19_DXt, .bg-h5JY_x {
+    background-color: transparent;
+    background: var(--BgImg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: var(--WindowOpacity);
+}
+
+
+.item-1Yvehc{
+    color: white;
+}
+
+/* Timestamps */
+.timestampVisibleOnHover-2bQeI4 {
+display: none;
+}
+
+
+
+
+/* For coloring the menus */
+.grid-1nZz7S, .markup-2BOw-j code,.expandedFolderBackground-2sPsd-, .contextMenu-HLZMGh,.container-1r6BKw.themed-ANHk51, .clickable-2ap7je .header-2o-2hj,.scroller-2wx7Hm,.autocompleteInner-zh20B_,.scroller-1JbKMe,.searchBar-6Kv8R2,.unreadBar-3YD_k9{
+    background-color: var(--MainGray);
+}
+
+/* Profile container */
+.container-1giJp5{
+    border-bottom: none;
+    background-color: var(--MainGray);
+}
+
+/* Number badges */
+.numberBadge-2s8kKX {
+    background-color: var(--MainColor) !important;
+  }
+
+
+/* Chat Text Box Color */
+div[data-slate-object] {
+    color: white;
+}
+
+
+/* Nitro Gift */
+.buttonWrapper-1ZmCpA[tabindex="2"] {
+    display: none;
+}
+
+
+/* Slide Into Those Dms  */
+.selected-aXhQR6 .layout-2DM8Md {
+    border-left: 4px solid var(--MainColor);
+    background-color: #4f545c52;
+}
+
+
+/* TextBox Area */
+.scrollableContainer-2NUZem {
+    background-color: var(--MainGray);
+}
+
+.app .container-1UB9sr, .app .inner-zqa7da {
+    background-color: transparent!important;
+}
+
+
+/* Attach Button */
+.attachWrapper-2TRKBi {
+    border: none;
+}
+
+
+/* Text Area Border */
+.form-2fGMdU {
+    border-top: 1px solid;
+    border-image: linear-gradient(to right,rgba(0,0,0,0),var(--MainColor),rgba(0,0,0,0))  100% 0;
+    background: transparent;
+}
+
+.chat-3bRxxu, .form-2fGMdU {
+    position: relative;
+}
+
+
+
+/* Embed Field Name */
+.embedFieldName-NFrena {
+    color: #ffffff;
+}
+
+/* Embed Field */
+.embedFieldValue-nELq2s, .embedFooterText-28V_Wb {
+    color: #c0c0c0;
+}
+
+
+
+/* user settings sidebar */
+.info-1VyQPT:after{
+    content: "Mystify By SkechyWolf";
+    font-size: 12px;
+    color: var(--MainMuted);
+    padding: 2px 0px;
+}
+
+
+/* Changes the discord word mark */
+.typeWindows-1za-n7:after {
+    content: var(--Title);
+    color: rgb(255,255,255,0.6);
+    font-weight: 500;
+    font-size: 15px;
+
+    position: absolute;
+    text-align: -webkit-center;
+    padding: 0 1em;
+    width: 100%;
+    height: 25px;
+    top: 4px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.wordmarkWindows-1v0lYD{
+    display: none;
+}
+
+
+/* Word Bar */
+.withFrame-haYltI{
+    background-color: rgb(28, 32, 34);
+    margin: 0px;
+    height: 22px;
+}
+
+/* Button Window */
+.winButton-iRh8-Z{
+    height: 26px;
+}
+
+
+[src*="/avatars/168741877430878208/"] + .header-23xsNx .username-1A8OIy::after{
+    content: "Theme Dev";
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration-color: transparent;
+    pointer-events: none;
+    background: var(--MainColor);
+    color: var(--TextColor);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
