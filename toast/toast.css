@@ -1,0 +1,48 @@
+.toast{
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 400px;
+    padding: 6px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(69, 75, 85, 0.5);
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s, visibility 0.5s;
+}
+
+.toast--visible{
+    top: 80%;
+    left: 10%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.toast--success{
+    backdrop-filter: blur(5px);
+    background: rgba(0, 192, 43, 0.5);
+    border: none;
+    color: #fff;
+}
+
+.toast--info{
+    backdrop-filter: blur(5px);
+    background: rgba(35, 116, 255, 0.5);
+    border: none;
+    color: #fff;
+}
+
+.toast--error{
+    backdrop-filter: blur(5px);
+    background: rgba(213, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+}
