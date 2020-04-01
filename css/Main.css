@@ -1,0 +1,5 @@
+.HeaderName{
+    text-align: center;
+    background: cornflowerblue;
+    clip-path: polygon(0 0, 70% 0%, 60% 100%, 0% 100%);
+}

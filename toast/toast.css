@@ -21,7 +21,6 @@
 
 .toast--visible{
     top: 80%;
-    left: 10%;
     opacity: 1;
     visibility: visible;
 }
