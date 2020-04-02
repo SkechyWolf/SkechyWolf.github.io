@@ -1,22 +1,26 @@
-*{
-	margin: 0;
-	padding: 0;
-	outline: none;
-    box-sizing: border-box;
-}
-
 body{
+    height: 100%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: GradientBG 15s ease infinite;
+    overflow: hidden;
 }
 
-.HeaderName{
-    text-align: center;
-    background: #2196F3;
-    animation: clipPath 5s;
-    clip-path: polygon(25% 0%, 80% 0%, 75% 100%, 20% 100%);
+@keyframes GradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 
-@keyframes clipPath {
-    0%{clip-path:polygon(50% 0%, 50% 0%, 45% 100%, 45% 100%);}
-    100%{clip-path:polygon(25% 0%, 80% 0%, 75% 100%, 20% 100%)}
+#Background{
+    backdrop-filter: blur(50px);
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    height: 100%;
+    width: 80%;
+    left: 10%;
+    border-radius: 10px;
+    background-position: center center;
 }
