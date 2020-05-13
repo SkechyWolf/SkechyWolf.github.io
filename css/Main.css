@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* TODO: Chamge colors*/
 @media (prefers-color-scheme: dark) {
     :root {
         --text-color: #b6b6b6;
