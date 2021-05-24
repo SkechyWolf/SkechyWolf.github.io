@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:image" content="https://cdn.discordapp.com/attachments/744035691725455440/846254422866657280/unknown.png" />
+    <meta property="og:description" content="Will You Be Lucky????" />
+    <meta property="og:site_name" content="Rick Roll????" />
+    <meta name="theme-color" content="#2196F3">    
+	<title>Will it Rick Roll You?</title>
+	<style>
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>How Lucky Are You?????</h1>
+	<h2>Redirecting In 5 seconds</h2>
+	<script>
+		document.body.onload = function() {
+			setTimeout(() => {
+				const websites = ['https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'https://www.youtube.com/watch?v=2uGMSUbrYGQ']
+				const website = websites[Math.floor(Math.random() * websites.length)];
+				window.location.href = website;
+			}, 5000);
+		}
+	</script>
+</body>
+</html>
