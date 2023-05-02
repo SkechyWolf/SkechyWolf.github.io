@@ -4,11 +4,13 @@
     top: 0;
     right: 0px;
     width: 100%;
-    background-color: var(--LniniusTiusOrange);
+    background-color: var(--main-background);
     overflow: hidden;
     border-radius: 0 0px var(--border-radius) var(--border-radius);
     /* Add a box shadow under the nav bar */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Z-index */
+    z-index: 999;
 }
 
 /* Style the links inside the navbar */
