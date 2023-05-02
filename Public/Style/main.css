@@ -64,8 +64,50 @@ body {
     font-size: .8rem;
     color: var(--LniniusTiusOrange);
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.5rem; 
+    margin-top: 20px;
 }
 .contact-us a {
     text-decoration: none;
     color: var(--text-color-URL);
+}
+
+.builds-content {
+    margin-top: 3rem;
+    position: relative;
+  min-height: 100vh;
+}
+
+.builds-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.build-grid-child{
+    width: 300px;
+    padding: 20px;
+}
+
+.build-title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--LniniusTiusOrange);
+    margin: 0;
+    padding: 0;
+}
+
+.builds-grid img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    cursor: pointer;
 }
