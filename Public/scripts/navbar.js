@@ -1,0 +1,1 @@
+document.getElementById("navbar-toggle").addEventListener("pointerdown", (function () { document.querySelector(".navbar").classList.contains("responsive") ? document.querySelector(".navbar").classList.remove("responsive") : document.querySelector(".navbar").classList.add("responsive") }));
