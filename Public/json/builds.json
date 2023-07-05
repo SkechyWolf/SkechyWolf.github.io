@@ -1,14 +1,112 @@
 [
   {
     "name": "POS 2",
-    "description": "Amazing watercooled PC with a ATI GPU all in a nice gray case with a glowing blue power button and a one of a kind \"Connect Battery Sticker\"",
+    "description": "Meet POS 2, one of the first designs pioneered by Lninius Tius. This masterpiece features an impressive AIO by Corsair for the best thermal performance of the powerful and notoriously [reliable] AMD Bulldozer-powered FX CPU. Enjoy games with the powerful and efficient ATI GPU, running fanless for optimal quietness. Two SATA HDDs are included for storage of your favorite programs and media. With proven reliability, the POS 2 is guaranteed to serve faithfully. \"STOP: Connect Battery\" sticker not included.",
     "date": "05/02/2023",
-    "image": "20230502_112635.webp"
+    "image": "20230502_112635.webp",
+    "reviews": [
+        {
+            "name" : "Marissa Peterson",
+            "date" : "05/02/2023",
+            "rating" : 5,
+            "comment" : "The POS 2 is an absolute beast of a machine! With its impressive Corsair AIO cooling system, my AMD Bulldozer-powered FX CPU stays cool even under heavy loads, allowing me to game and work without any worries about overheating. The fanless ATI GPU also works like a dream, providing powerful graphics without any annoying fan noise. The two included SATA HDDs provide ample storage for all of my favorite programs and media, and the system as a whole has proven to be incredibly reliable. I've been using it for months now without a single issue. Overall, I would highly recommend the POS 2 to anyone in need of a powerful and reliable computer."
+        },
+        {
+            "name": "Sinus Lebastian",
+            "date": "05/02/2023",
+            "rating": 1,
+            "comment": "This is a computer. I can't say anything else about it."
+        },
+        {
+            "name": "Jane Anderson",
+            "date": "05/02/2023",
+            "rating": 5,
+            "comment": "I recently had a chance to use the POS 2 and it's been a great experience so far. The design is really cool and the AIO does an awesome job of keeping everything cool and running smoothly. The GPU is super powerful and runs really quietly, which is a big plus. With two SATA HDDs, I have plenty of storage for all my games and media.\n\nWhat I really appreciate about the POS 2 is that it feels really reliable. You can tell the folks behind it put a lot of thought and care into it, and that gives me confidence that it's gonna last me a long time. The only thing I wish was included is the \"STOP: Connect Battery\" sticker."
+        },
+        {
+            "name": "David Rodriguez",
+            "date": "05/02/2023",
+            "rating": 1,
+            "comment": "I recently purchased the POS 2, and I have to say I'm really disappointed with it. While the design looks sleek and modern, the AIO did not live up to my expectations at all. The CPU runs incredibly hot during gaming sessions, and I experienced some lag and stuttering with the GPU. With only two SATA HDDs, I quickly ran out of storage space as well.\n\nWhat's worse, the POS 2 doesn't feel very reliable. I've had several crashes and freezes already, and I'm worried that this computer won't last me very long.\n\nOverall, I would not recommend the POS 2 to anyone."
+        }
+        
+    ]
   },
   {
     "name": "Lninius Tius",
-    "description": "Blazing fast PC with a Nvidia 1660 GPU a AMD CPU and RGB Ram",
+    "description": "This is Lninius Tius. It's a system that may not be for sale, but we proudly present it as a beacon for the identity of Lninius Tius. This system was critical in the creation and persistence of Lninius Tius. With its iconic 'Lninius Tius 💾💻' insignia, it powers through design and creation aspects of Lninius Tius, with its own physical silicon creating much of the providence of Lninius Tius. We're proud to show this piece of Tius heritage.",
     "date": "05/02/2023",
-    "image": "20230502_112729.webp"
+    "image": "20230502_112729.webp",
+    "reviews": false
+  },
+  {
+    "name": "Thermal Wizard",
+    "description": "Ultimate GPU with extreme cooling. This GPU runs so cool you'll think it's magic.",
+    "date": "05/02/2023",
+    "image": "ThermalWizard.png",
+    "reviews": [
+        {
+            "name": "John Johnson",
+            "date": "05/02/2023",
+            "rating": 1,
+            "comment": "Stole my wife"
+        },
+        {
+            "name": "Brandon Black",
+            "date": "05/02/2023",
+            "rating": 3,
+            "comment": "Didn't realize it was a GPU, thought it was a CPU. I'm not very smart."
+        },
+        {
+            "name": "Vance Eleme",
+            "date": "05/02/2023",
+            "rating": 5,
+            "comment": "I was absolutely blown away by the performance of the Thermal Wizard GPU! This little gem from the past packs a punch and runs cooler than a summer breeze. It handled all my gaming needs with ease, delivering jaw-dropping graphics and buttery-smooth frame rates. I couldn't believe how well it held up against modern counterparts. What truly impressed me was its exceptional cooling capability. The Thermal Wizard stayed frosty throughout my gaming sessions, never breaking a sweat. No overheating issues or performance hiccups to worry about here! This GPU is a true wizard when it comes to keeping things cool. If you're on a budget and looking for a blistering fast GPU that can keep up with the latest gaming demands, the Thermal Wizard is a magical choice. It brings power, stability, and coolness to your PC gaming setup. Don't miss out on this remarkable piece of hardware! It also only comes with S-Video, but that's great, since my monitor is from 1981"
+        },
+        {
+            "name": "Tom K",
+            "date": "05/02/2023",
+            "rating": 1,
+            "comment": "Literally a fire hazard. The GPU alone uses more power than the entire PSU provides."
+        },
+        {
+            "name": "Joe Bandon",
+            "date": "05/02/2023",
+            "rating": 1,
+            "comment": "This isnt chocolate chocolate chip ice cream. I'm very disappointed."            
+        }
+    ]
+  },
+  {
+    "name": "The Despicable",
+    "description": "Find passion in unique design with a focus on quick manufacturing and cheaply-paid labor. The main goal of this sleek system is the reduction of costs for the end user, a main priority of Lninius Tius' team... With a blistering fast Intel Core™ CPU and incredible compatibility thanks to its inclusion of parallel ports, PS/2, Serial and S/VIDEO along with DVI for video output. Firewire is also included for hardcore users, all thanks to the dedication of the Lninius Tius team.",
+    "date": "05/02/2023",
+    "image": "The-Despicable.webp",
+    "reviews": [
+        {
+            "name": "Walter Gusberg",
+            "date": "05/02/2023",
+            "rating": 4,
+            "comment": "I am the one who uses this PC"
+        },
+        {
+           "name": "Mike Hawk",
+            "date": "05/02/2023",
+            "rating": 5,
+            "comment": "It turns on"
+        },
+        {
+            "name": "Bill Ding",
+            "date": "05/02/2023",
+            "rating": 5,
+            "comment": "I love this PC"
+        },
+        {
+            "name": "William Gates",
+            "date": "05/02/2023",
+            "rating": 3,
+            "comment": "Should've bought a Mac"
+        }
+    ]
   }
 ]
