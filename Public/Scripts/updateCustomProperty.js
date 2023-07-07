@@ -1,0 +1,1 @@
+export function getCustomProperty(t, e) { return parseFloat(getComputedStyle(t).getPropertyValue(e)) || 0 } export function setCustomProperty(t, e, r) { t.style.setProperty(e, r) } export function incrementCustomProperty(t, e, r) { setCustomProperty(t, e, getCustomProperty(t, e) + r) }
