@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tius Runner</title>
+    <title>Lninius Tius Runner</title>
     <link rel="stylesheet" href="../Public/Style/styles.css">
     <script src="../Public/Scripts/scripts.js" type="module" defer></script>
 </head>
@@ -16,6 +16,36 @@
         <img src="../Public/images/game/ground.png" alt="Ground" class="ground" data-ground>
         <img src="../Public/images/game/ground.png" alt="Ground" class="ground" data-ground>
         <img src="../Public/images/game/tius-stationary.png" alt="Tius" class="tius" data-tius>
+    </div>
+    <div class="lose-screen hide" data-lose-screen>
+        <div class="BSOD-Reveal hide" data-bsod-reveal></div>
+        <div class="page">
+            <div class="BSOD-Container">
+                <h1 class="frown">:(</h1>
+                <p class="error-msg">Lninius Tius ran into a problem and needs to restart. We're just collecting some
+                    error
+                    info, and then
+                    we'll restart for you.</p>
+
+                <span id="percentage">0</span>% complete</h2>
+                <div id="details">
+                    <div id="qr">
+                        <div id="image">
+                            <img src="../Public/images/qr.png" alt="QR Code" />
+                        </div>
+                    </div>
+                    <div id="stopcode">
+                        <h4>For more information about this issue and possible fixes, visit
+                            <br />https://skechywolf.github.io/LniniusTius
+                        </h4>
+                        <h5>If you call a support person, give them this info:
+                            <br />
+                            <p id="stopcode-msg">Stop Code: CRITICAL_OBJECT_TERMINATION</p>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="fps">0</div>
 </body>
